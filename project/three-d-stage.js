@@ -71,7 +71,7 @@
       display: block;
       width: 100%;
       height: 100vh;
-      background: var(--stage-bg, #f0eee6);
+      background: var(--stage-bg, #000000);
       overflow: hidden;
     }
     canvas { display: block; outline: none; }
@@ -105,7 +105,7 @@
       bottom: 16px;
       max-width: 60%;
       font: 400 12px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      color: rgba(26, 25, 21, 0.55);
+      color: #fcfcfc;
       user-select: none;
     }
     .err {
