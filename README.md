@@ -1,29 +1,15 @@
-<<<<<<< HEAD
-# rubikscubeproject
-=======
-# CODING AGENTS: READ THIS FIRST
+# Rubik's Cube Project
 
-This is a **handoff bundle** from Claude Design (claude.ai/design).
+A 3×3 puzzle cube modeled at real scale (57 mm) with Three.js, built from 26 rounded-box cubies with flush, rounded colored tiles.
 
-A user mocked up designs in HTML/CSS/JS using an AI design tool, then exported this bundle so a coding agent can implement the designs for real.
+## Features
 
-## What you should do — IMPORTANT
+- Drag to orbit, scroll to zoom
+- Drag across any face to rotate the layer under your cursor
+- Keyboard controls: `U` `D` `L` `R` `F` `B` to turn layers, hold `Shift` to reverse
+- Scramble, reset, and a turn counter
+- Export the current state as OBJ+MTL or GLB
 
-**Read the chat transcripts first.** There are 1 chat transcript(s) in `chats/`. The transcripts show the full back-and-forth between the user and the design assistant — they tell you **what the user actually wants** and **where they landed** after iterating. Don't skip them. The final HTML files are the output, but the chat is where the intent lives.
+## Running locally
 
-**Read `project/cube-3x3.html` in full.** The user had this file open when they triggered the handoff, so it's almost certainly the primary design they want built. Read it top to bottom — don't skim. Then **follow its imports**: open every file it pulls in (shared components, CSS, scripts) so you understand how the pieces fit together before you start implementing.
-
-**If anything is ambiguous, ask the user to confirm before you start implementing.** It's much cheaper to clarify scope up front than to build the wrong thing.
-
-## About the design files
-
-The design medium is **HTML/CSS/JS** — these are prototypes, not production code. Your job is to **recreate them pixel-perfectly** in whatever technology makes sense for the target codebase (React, Vue, native, whatever fits). Match the visual output; don't copy the prototype's internal structure unless it happens to fit.
-
-**Don't render these files in a browser or take screenshots unless the user asks you to.** Everything you need — dimensions, colors, layout rules — is spelled out in the source. Read the HTML and CSS directly; a screenshot won't tell you anything they don't.
-
-## Bundle contents
-
-- `README.md` — this file
-- `chats/` — conversation transcripts (read these!)
-- `project/` — the `3D Rubik's Cube Model` project files (HTML prototypes, assets, components)
->>>>>>> 6affccb (Initial commit)
+Open `project/cube-3x3.html` in a browser.
