@@ -12,4 +12,4 @@ A 3×3 puzzle cube modeled at real scale (57 mm) with Three.js, built from 26 ro
 
 ## Running locally
 
-Open `project/cube-3x3.html` in a browser.
+Open `index.html` in a browser.
